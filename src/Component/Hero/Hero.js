@@ -1,4 +1,3 @@
-import heroImg from "../../Assets/heroImg.png";
 import truckIcon from "../../Assets/foodTruck.png";
 
 import "./Hero.css";

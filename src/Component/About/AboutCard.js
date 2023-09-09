@@ -2,7 +2,7 @@ import aboutCard from "../../Assets/aboutImg.png";
 import "./AboutCard.css";
 export const AboutCard = () => {
   return (
-    <div className="about_container">
+    <section className="about_container">
       <div className="about_container_img">
         <img src={aboutCard} alt="about-card-img" />
       </div>
@@ -16,6 +16,6 @@ export const AboutCard = () => {
         </p>
         <button>Read More</button>
       </div>
-    </div>
+    </section>
   );
 };
