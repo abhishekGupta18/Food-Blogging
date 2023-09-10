@@ -11,13 +11,12 @@
   margin: 2.6rem 0 0 6rem;
   gap: 1.5rem;
 }
-.hero_container_text img {
-  margin-bottom: 9rem;
-}
+
 .hero_container_text img {
   width: 6.6rem;
   height: 5.1rem;
   flex-shrink: 0;
+  margin-bottom: 9rem;
 }
 
 .hero_container_text h1 {
@@ -60,7 +59,6 @@
 .hero_container_image {
   width: 47rem;
   height: 50.25rem;
-  flex-shrink: 0;
   border-radius: 0rem 0rem 0rem 12.43138rem;
   background: url("../../Assets/heroImg.png"), lightgray 50% / cover no-repeat;
   position: relative;
@@ -87,4 +85,31 @@
   font-weight: 600;
   line-height: 2.25rem;
   letter-spacing: 0.03rem;
+}
+
+@media screen and (max-width: 375px) {
+  .hero_container {
+    flex-direction: column-reverse;
+  }
+  .hero_container_text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .hero_container_text img {
+    display: none;
+  }
+  .hero_container_image {
+    width: 100%;
+  }
+  .hero_container_image svg {
+    width: 100%;
+  }
+
+  /* .hero_container_image {
+    width: 100%;
+  } */
 }

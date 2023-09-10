@@ -53,3 +53,12 @@
   letter-spacing: 0.03rem;
   border: none;
 }
+
+@media screen and (max-width: 375px) {
+  .about_container_img {
+    display: none;
+  }
+  .about_container_text {
+    align-items: center;
+  }
+}
