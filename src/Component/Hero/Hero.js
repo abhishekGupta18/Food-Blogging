@@ -1,23 +1,12 @@
 import truckIcon from "../../Assets/foodTruck.png";
-
+import heroImg from "../../Assets/heroImg.png";
 import "./Hero.css";
 
 export const Hero = () => {
   return (
     <section className="hero_container">
-      <div className="hero_container_text">
-        <img src={truckIcon} alt="truckIcon" />
-        <h1>
-          Discover the <span>Best</span> Food and Drinks
-        </h1>
-        <p>
-          Naturally made Healthcare Products for the better care & support of
-          your body.
-        </p>
-        <button>Explore Now!</button>
-      </div>
       <div className="hero_container_image">
-        {/* <img src={heroImg} alt="hero image" srcset="" /> */}
+        <img src={heroImg} alt="hero image" srcset="" />
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="752"
@@ -31,6 +20,18 @@ export const Hero = () => {
           />
         </svg>
         <button className="social_btn">Get In Touch</button>
+      </div>
+      <div className="hero_container_text">
+        <img src={truckIcon} alt="truckIcon" />
+
+        <h1>
+          Discover the <span>Best</span> Food and Drinks
+        </h1>
+        <p>
+          Naturally made Healthcare Products for the better care & support of
+          your body.
+        </p>
+        <button>Explore Now !</button>
       </div>
     </section>
   );

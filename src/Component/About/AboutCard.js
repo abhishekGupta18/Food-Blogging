@@ -9,10 +9,11 @@ export const AboutCard = () => {
       <div className="about_container_text">
         <h2>About Us</h2>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum,
-          itaque laborum non molestiae enim exercitationem dolorem quidem
-          laudantium officia harum voluptatum ducimus totam nihil sunt? Labore
-          veritatis doloribus placeat obcaecati.
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. t has survived not only
+          five centuries.
         </p>
         <button>Read More</button>
       </div>
