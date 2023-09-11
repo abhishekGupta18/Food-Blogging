@@ -14,6 +14,8 @@ export const SimpleSlider = () => {
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 4,
+    arrows: true,
+
     responsive: [
       {
         breakpoint: 1440,
