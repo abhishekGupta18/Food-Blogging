@@ -21,7 +21,7 @@ export const Footer = () => {
           <p>(904) 443-0343</p>
         </div>
         <div className="footer_section_more">
-          <p className="footer_headings">More</p>
+          <p className="footer_headings ">More</p>
           <p>About Us</p>
           <p>Products</p>
           <p>Career</p>
@@ -29,6 +29,7 @@ export const Footer = () => {
         </div>
         <div className="footer_section_social">
           <p className="footer_headings">Social Links</p>
+          <span>© 2022 Food Truck Example</span>
           <div>
             <InstagramIcon />
             <TwitterIcon />
