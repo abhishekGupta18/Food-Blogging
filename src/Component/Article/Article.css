@@ -1,6 +1,76 @@
 .article_section {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.article_section h2 {
+  color: var(--primary-color);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 3.3rem;
+  letter-spacing: 0.07rem;
+}
+
+.article_card {
+  max-width: 16.5rem;
+  display: flex !important;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  border-radius: 1.67331rem;
+  border: 0.876px solid #373737;
+  background: #fff;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.article_card h3 {
+  color: var(--primary-color);
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+}
+.article_card p {
+  color: #444957;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.6875rem;
+  letter-spacing: 0.018rem;
+}
+.article_card button {
+  padding: 0.18rem 1.625rem;
+  color: #424961;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1.02rem;
+  font-weight: 600;
+  line-height: 2.22rem;
+  letter-spacing: 0.03rem;
+  border-radius: 1.30856rem;
+  border: 1.37px solid rgba(147, 162, 211, 0.38);
+  background: #fff;
+}
+.card_img_container {
+  height: 10rem;
+}
+.card_img_container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin: 0 auto;
+  border-radius: 1.67331rem;
+}
+.slider {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* .article_section {
+  display: flex;
+  flex-direction: column;
   align-content: center;
   gap: 3rem;
   margin: 0 6rem;
@@ -23,8 +93,8 @@
   padding: 2rem;
 }
 .article_card img {
-  margin: 1rem auto;
-}
+  margin: 1rem auto; */
+/* }
 .article_card p {
   margin: 1rem auto;
   width: 18rem;
@@ -33,9 +103,9 @@
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.6875rem; /* 180% */
-  letter-spacing: -0.01875rem;
-}
-.article_card h3 {
+/* letter-spacing: -0.01875rem;
+} */
+/* .article_card h3 {
   margin: 0 auto;
   width: 18rem;
   color: var(--primary-color);
@@ -43,15 +113,15 @@
   font-size: 1.3rem;
   font-weight: 700;
   line-height: 1.6875rem;
-}
+} */
 
-.article_card button {
+/* .article_card button {
   width: 10rem;
   height: 2.6rem;
   padding: 0.18rem 1.625rem;
   margin: 0 0 0 2.5rem;
   color: #424961;
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Source Sans 3", sans-serif; 
   font-size: 1.02rem;
   font-weight: 600;
   line-height: 2.22rem;
@@ -64,4 +134,4 @@
   margin: 2rem;
   display: flex;
   gap: 1rem;
-}
+} */
