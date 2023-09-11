@@ -71,6 +71,45 @@
   width: 0.75rem;
 }
 
+@media screen and (min-width: 768px) {
+  .footer_section {
+    width: 100%;
+    padding: 5rem;
+  }
+  .footer_container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer_section_contact {
+    font-size: 1rem;
+  }
+  .address {
+    width: 22rem;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+  .footer_section_more {
+    font-size: 1rem;
+  }
+  .footer_headings {
+    font-size: 1.5rem;
+  }
+  .footer_section_social div svg {
+    width: 1.5rem;
+  }
+  .footer_section_social {
+    align-self: flex-start;
+  }
+  .footer_section_social p {
+    display: block;
+  }
+  .footer_section_social span {
+    display: none;
+  }
+}
+
 /* .footer_section {
   height: 23rem;
   width: 100%;

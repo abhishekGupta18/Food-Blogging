@@ -13,7 +13,7 @@ export const Footer = () => {
         </div>
         <div className="footer_section_contact">
           <p className="footer_headings">Contact Us</p>
-          <p>
+          <p className="address">
             Lorem Ipsum Pvt Ltd.5/1, Magalton Road, Phartosh Gate near YTM
             Market, XYZ-343434
           </p>
