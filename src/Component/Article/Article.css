@@ -15,6 +15,7 @@
 
 .article_card {
   max-width: 16.5rem;
+  height: 29rem;
   display: flex !important;
   flex-direction: column;
   text-align: center;
