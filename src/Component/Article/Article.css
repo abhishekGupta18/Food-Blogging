@@ -68,6 +68,9 @@
   width: 100%;
   margin: 0 auto;
 }
+.slick-slider {
+  overflow: hidden;
+}
 
 /* .article_section {
   display: flex;
